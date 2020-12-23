@@ -1,76 +1,58 @@
 <template>
-  <div>
-    <div
-      class="a1"
-      style="height:calc(100% - 100px - 200px);min-height: cacl(100vh - 100px - 200px) ;"
-    >
-      <div class="box logo"><img src="../html/imgs/imges/2b.png"></div>
-      <div class="box1 login">
-        <div class="login1">
-          <div class="huiyuan"></div>
-          <div class="hea"><div class="huiyuan-item" style="margin-left: 1px;">会员登陆</div>
-            <input type="text" placeholder="会员账号/手机号" >
-            <input type="password" placeholder="密码">
-            <div class="hea"><div class="hea1" style="margin-left: 1px;"><div class="el-input"></div></div>
-          <input type="text" placeholder="" >
-           <div class="hea"></div>
-           <div class="hea"></div>
-           <div class="hea"></div>
-        </div>
-        </div>
+  <div class="box">
+    <div class="lo">
+      <div class="abc">
+        <div class="hui" style=" margin-left: 1px;">会员登录</div>
+        <div class="a1">
+          <div class="a11">
+            <input type="text" placeholder="会员账号/手机号" class="as" />
+          </div>
         </div>
       </div>
+    </div>
+    <div class="logo">
+      <img src="../html/imgs/imges/2b.png" />
     </div>
   </div>
 </template>
 <style>
-    *{
-        margin: 0;
-        padding: 0;
-    }
-.a1 {
-  background-image: url(../html/imgs/imges/3b.jpg);
-
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #f5f5f5;
-}
 .box {
-  position: absolute;
-  left: 10%;
-  top: 15vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../html/imgs/imges/3b.jpg);
+  overflow: hidden;
 }
-.box1 {
-  position: absolute;
-  width: 360px;
-  left: 60%;
-  top: 25vh;
+.lo {
+  width: 300px;
+  height: 320px;
+  background-color: white;
+  position: relative;
+  left: 1000px;
+  top: 200px;
 }
-.login1 {
-  background: #fff;
+.logo {
+  position: relative;
+  left: 300px;
+  top: -200px;
+  margin-left: -40px;
+}
+.abc {
   padding: 20px 40px;
 }
-.hea {
-  margin-bottom: 22px;
-}
-.huiyuan-item {
+.hui {
   line-height: 40px;
   position: relative;
   font-size: 14px;
-}
-.hea1{
-    
-    line-height: 40px;
-    position: relative;
-    font-size: 14px;
-
+  margin-bottom: 20px;
 }
 
-.el-input {
-    position: relative;
-    font-size: 14px;
-    display: inline-block;
-    width: 100%;
+.a1 {
+  position: relative;
+  font-size: 14px;
+  display: inline-block;
+  width: 100%;
 }
-
+.as{
+  border-radius: 25px!important;
+}
 </style>

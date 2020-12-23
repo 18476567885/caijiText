@@ -1,35 +1,42 @@
 <template>
     <div>
-      <div class="bro">
-          1
-          <div class="abc">2</div>
-          <div class="ef">3</div>
-      </div>
-    </div>
+        <div class="abc">
+            <a href="">手机 电话卡</a>
+            <a href="">电视  盒子</a>
+            <a href=""> 笔记本 平板</a>
+            <a href=""> 出行 穿戴</a>
+            <a href=""> 智能 路由器</a>
+           
+        </div>
+        <comm ></comm >
+</div>
 </template>
+  <script>
+      import comm from './css1/comm' 
+      export default{
+          components:{
+              comm,
+          }
+      }
+  </script>
 <style>
-    .bro{
-        width: 250px;
-        height: 1o0px;
-        border: 1px solid red;
-        float: left;
-        background-color: blue;
+    a{
+      display: block;
+      width: 300px;
+      height: 40px;
+      background-color: #555;
+      font-size: 14px;
+      color: #fff;
+      text-emphasis: none;
+      text-indent: 2em;
+      line-height: inherit;
+      line-height: 40px;
+    
+
+
     }
-    .abc{
-        width: 150px;
-        height: 100px;
-        border: 1px solid blue;
-        float: left;
-        background-color: yellow;
-
-    }
-    .ef{
-        width: 100px;
-        height: 50px;
-        border: 1px solid blue;
-        background-color: black;
-        float: left;
-
-
+    /* 鼠标经过链接变换背景颜色 */
+    a:hover{
+        background-color: red;
     }
 </style>

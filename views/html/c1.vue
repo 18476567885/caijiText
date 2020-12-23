@@ -1,218 +1,408 @@
 <template>
   <div>
-    <div
-      class="case_bg_1"
-      style="height:calc(100% - 100px - 200px);min-height:calc(100vh - 100px - 200px);"
-      data-v-dbad25da=""
-    >
-      <div class="logoDiv"><img src="/_nuxt/img/3b531ba.png" alt="" /></div>
-      <div class="loginDiv">
-        <form class="el-form demo-ruleForm">
-          <div class="el-form-item">
-            <!---->
-            <div class="el-form-item__content" style="margin-left:1px;">
-              <span style="color:333;font-size:20px;">会员登录</span
-              ><!---->
-            </div>
-          </div>
-          <input type="text" name="accounts1" style="display:none;" />
-          <input type="password" name="password1" style="display:none;" />
-          <div class="el-form-item">
-            <!---->
-            <div class="el-form-item__content" style="margin-left:1px;">
-              <div class="el-input">
-                <!----><input
-                  type="text"
-                  autocomplete="off"
-                  placeholder="会员账号/手机号"
-                  onkeypress="javascript:if(event.keyCode == 32)event.returnValue = false;"
-                  class="el-input__inner"
-                /><!----><!----><!---->
-              </div>
-              <!---->
-            </div>
-          </div>
-          <input type="text" name="accounts11" style="display:none;" />
-          <div class="el-form-item">
-            <!---->
-            <div class="el-form-item__content" style="margin-left:1px;">
-              <div class="el-input">
-                <!----><input
-                  type="password"
-                  autocomplete="off"
-                  placeholder="密码"
-                  onkeypress="javascript:if(event.keyCode == 32)event.returnValue = false;"
-                  class="el-input__inner"
-                /><!----><!----><!---->
-              </div>
-              <!---->
-            </div>
-          </div>
-          <div class="el-form-item">
-            <!---->
-            <div class="el-form-item__content" style="margin-left:1px;">
-              <button
-                type="button"
-                class="el-button el-button--primary is-round"
-                style="width:100%;"
-              >
-                <!----><!----><span>登录</span></button
-              ><!---->
-            </div>
-          </div>
-          <div class="el-form-item">
-            <!---->
-            <div class="el-form-item__content" style="margin-left:1px;">
-              <span class="badge_hover">免费注册</span>
-              <span class="font_0388ff badge pull-right">忘记密码</span
-              ><!---->
-            </div>
-          </div>
-        </form>
-      </div>
-      <div
-        class="el-dialog__wrapper messageDiv"
-        style="display:none;"
-        data-v-514cd5c4=""
-      >
-        <div
-          role="dialog"
-          aria-modal="true"
-          aria-label="dialog"
-          class="el-dialog"
-          style="margin-top:15vh;"
-        >
-          <div class="el-dialog__header">
-            <span class="el-dialog__title"></span
-            ><button
-              type="button"
-              aria-label="Close"
-              class="el-dialog__headerbtn"
-            >
-              <i class="el-dialog__close el-icon el-icon-close"></i>
-            </button>
-          </div>
-          <!----><!---->
+    <div class="public-header">
+      <div class="public-contanier clearfloat">
+        <div class="header-logo">
+          <a href="" class="a1">logo图片</a>
         </div>
+
+        <ul class="header-nav clearfloat">
+          <li class="item"><a href="">xiaohuihui</a></li>
+          <li class="item"><a href="">daniu</a></li>
+          <li class="item"><a href="">dalin</a></li>
+          <li class="item"><a href="">caiji</a></li>
+          <li class="item"><a href="">2b青年</a></li>
+        </ul>
       </div>
-      <div class="el-dialog__wrapper" style="display:none;">
-        <div
-          role="dialog"
-          aria-modal="true"
-          aria-label="成为开发者"
-          class="el-dialog"
-          style="margin-top:15vh;"
-        >
-          <div class="el-dialog__header">
-            <span class="el-dialog__title">成为开发者</span
-            ><button
-              type="button"
-              aria-label="Close"
-              class="el-dialog__headerbtn"
-            >
-              <i class="el-dialog__close el-icon el-icon-close"></i>
-            </button>
+    </div>
+    <div class="index-banner">
+      <div class="ban-bg"><img src="../html/imgs/imges/manhua.jpg" /></div>
+      <div class="ban-tex">
+        <div class="tex-logo"></div>
+        <p class="pp">
+          <i class="lin"></i>
+          xiaohuihui daniu
+          <i class="lin1"></i>
+        </p>
+      </div>
+    </div>
+    <div class="index-menu ">
+      <div class="menu-tips">qindalin</div>
+      <div class="public-contanier  menu-list">
+        <ul class="clearfloat ">
+          <li class="menu-item clearfloat">
+            <div class="title">
+              <a href="">
+                <h4>haohaoaho</h4>
+                <p>xuexi</p>
+              </a>
+            </div>
+            <div class="line"></div>
+            <div class="pice">jiayou</div>
+          </li>
+          <li class="menu-item clearfloat">
+            <div class="title">
+              <a href="" class="title">
+                <h4>haohaoaho</h4>
+                <p>xuexi</p>
+              </a>
+            </div>
+
+            <div class="line"></div>
+            <div class="pice">jianchi</div>
+          </li>
+          <li class="menu-item clearfloat">
+            <div class="title">
+              <a href="">
+                <h4>haohaoaho</h4>
+                <p class="com">xuexi</p>
+              </a>
+            </div>
+            <div class="line"></div>
+            <div class="pice">3</div>
+          </li>
+          <li class="menu-item clearfloat">
+            <div class="title">
+              <a href="">
+                <h4>haohaoaho</h4>
+                <p class="com">xuexi</p>
+              </a>
+            </div>
+            <div class="line"></div>
+            <div class="pice">4</div>
+          </li>
+          <li class="menu-item clearfloat">
+            <div class="title">
+              <a href="">
+                <h4>haohaoaho</h4>
+                <p class="com">xuexi</p>
+              </a>
+            </div>
+            <div class="line"></div>
+            <div class="pice">5</div>
+          </li>
+          <li class="menu-item clearfloat">
+            <div class="title">
+              <a href="">
+                <h4>haohaoaho</h4>
+                <p class="com">xuexi</p>
+              </a>
+            </div>
+            <div class="line"></div>
+            <div class="pice">6</div>
+          </li>
+          <li class="menu-item clearfloat">
+            <div class="title">
+              <a href="">
+                <h4>haohaoaho</h4>
+                <p class="com">xuexi</p>
+              </a>
+            </div>
+            <div class="line"></div>
+            <div class="pice">7</div>
+          </li>
+          <li class="menu-item clearfloat">
+            <div class="title">
+              <a href="">
+                <h4>haohaoaho</h4>
+                <p class="com">xuexi</p>
+              </a>
+            </div>
+            <div class="line"></div>
+            <div class="pice">8</div>
+          </li>
+        </ul>
+      </div>
+      <div class="asd"><a href="" class="btn"> <span>|</span> 坚持<span class="ico">|</span></a></div>
+    </div>
+    <div class="index-panel public-contanier">
+        <div class="index-panel-top clearfloat">
+            <h3>锲而不舍</h3>
+          <div class="li1"></div>
+          <div class="bttn">
+               <a href="" class="btt active"></a>
+               <a href="" class="btt"></a>
+               <a href="" class="btt"></a>
+               <a href="" class="btt"></a>
           </div>
-          <!----><!---->
+        </div>
+        <div class="index-panelbody"></div>
+    </div>
+    <div class="index-panel public-contanier">
+      <div class="index-panel-top clearfloat">
+        <h3>锲而不舍</h3>
+        <div class="li1"></div>
+      </div>
+    </div>
+    <div class="  foot">
+      <div class="public-contanier">
+        <div class="footer-co">好好学习吧</div>
+        <div class="footer-co">听话</div>
+        <div class="footer-co">未来可期</div>
+        <div class="footer-co ">
+          <div class="abc"></div>
+          不负韶华
         </div>
       </div>
     </div>
   </div>
 </template>
 <style>
-    *{
-        margin: 0;
-        padding: 0;
-        
-    }
-a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, i, iframe, img, input, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, time, tt, u, ul, var, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
+/* 重置样式 */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+form,
+a,
+p,
+textarea {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
-user agent stylesheet
-form {
-    display: block;
-    margin-top: 0em;
+ol,
+ul,
+li {
+  list-style: none;
 }
-body {
-    -webkit-text-size-adjust: none;
-    -webkit-tap-highlight-color: #f3f4f8;
-    background: #f3f4f8;
+a {
+  text-decoration: none;
+  display: block;
 }
-body {
-    line-height: 1;
+img {
+  border: none;
+  display: block;
 }
-body {
-    font-family: Microsoft Yahei,SourceHanSansCN-Regular,SimHei,SimSun!important;
+.clearfloat {
+  zoom: 1;
+}
+.clearfloat:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+}
+.public-header {
+  height: 110px;
+}
+.public-contanier {
+  position: relative;
+  margin: 0 auto;
+
+  width: 1100px;
+}
+.foot {
+  height: 100px;
+  background: #3b3b3b;
+  padding-top: 100px;
+}
+.header-logo {
+  float: left;
+  width: 182px;
+  height: 54px;
+}
+.header-nav {
+  float: right;
+  font-size: 14px;
+}
+.item {
+  float: left;
+  margin-top: 44px;
+  margin-left: 50px;
+  color: #3b3b3b;
+}
+a {
+  color: red;
+}
+.a1 {
+  background: url(../html/imgs/imges/duck.png);
+  height: 54px;
+  margin-top: 40px;
+}
+.footer-co {
+  width: 230px;
+  float: left;
+  margin-right: 40px;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.8;
+}
+.abc {
+  width: 182px;
+  height: 55px;
+  background-image: url(../html/imgs/imges/manhua.jpg);
+  margin-top: -45px;
+}
+.index-banner {
+  position: relative;
+  background: blueviolet;
+}
+.baner-bg {
+  height: 570px;
+}
+.ban-tex {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  margin-left: -380px;
+}
+.tex-logo {
+  width: 776px;
+  height: 117px;
+  background-image: url(../html/imgs/imges/3b.jpg);
+}
+img {
+  margin: 0 auto;
+}
+.pp {
+  margin-top: 17px;
+  text-align: center;
+  font-size: 16px;
+  color: red;
+}
+.lin {
+  display: inline-block;
+  width: 40px;
+  border-top: 1px solid red;
+  margin-right: 26px;
+  vertical-align: middle;
+}
+.lin1 {
+  margin-left: 26px;
+  display: inline-block;
+  width: 40px;
+  border-top: 1px solid red;
+  vertical-align: middle;
+}
+.index-menu {
+  position: relative;
+  border-top: 4px solid #f34949;
+}
+.menu-tips {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-left: -78px;
+  width: 156px;
+  height: 75px;
+  text-align: center;
+  line-height: 65px;
+  color: blue;
+  background: chartreuse;
+}
+
+.menu-tips::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 78px solid transparent;
+  border-right: 78px solid transparent;
+  border-bottom: 20px solid white;
+}
+.menu-list {
+  margin-top: 150px;
+  color: #555;
+  overflow: hidden;
+}
+.menu-list ul {
+  width: 1160px;
+}
+.menu-item {
+  float: left;
+  width: 520px;
+  margin-right: 60px;
+  margin-bottom: 56px;
+}
+.title,
+.line {
+  float: left;
+}
+.pice {
+  float: right;
+}
+.title {
+  width: 230px;
+  overflow: hidden;
+  white-space: normal;
+  text-overflow: ellipsis;
+}
+.line {
+  width: 192px;
+  border-top: 1px solid red;
+  margin-top: 10px;
+}
+.com {
+  margin-top: 4px;
+  font-size: 12px;
+}
+.btn{
+    margin: 0 auto;
+    width: 114px;
+    height: 32px;
+    border: 1px solid red;
+    line-height: 32px;
     font-size: 14px;
-}
+    text-align: center;
     
-.case_bg_1 {
-    background-image: url(/_nuxt/img/a968edf.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #f5f5f5;
 }
-.case_bg_1 .logoDiv {
-    position: absolute;
-    left: 10%;
-    top: 15vh;
+.index-panel{
+    margin-top: 200px;
+   
+
 }
-.case_bg_1 .loginDiv {
-    position: absolute;
-    width: 360px;
-    left: 60%;
-    top: 25vh;
+h3{margin-right: 48px;
+    font-size: 20px;
+    color:black;
+    float: left;
+    font-weight: normal;
+   
+    
 }
-.case_bg_1 .demo-ruleForm {
-    background: #fff;
-    padding: 20px 40px;
+.li1{
+    float: left;
+    margin-top: 7px;
+    width: 200px;
+    border-top: 1px solid red;
+
 }
-.messageDiv {
-    top: "10vh";
+.bttn{
+   font-size: 0;
+   float: right;
 }
-.el-dialog__wrapper {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: auto;
-    margin: 0;
+
+.btt{
+    display: inline-block;
+    margin-left: 11px;
+    width: 9px;
+    height: 9px;
+    background: #b3b3;
+    border-radius: 50%;
+
+    
+
 }
-.el-dialog__wrapper {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: auto;
-    margin: 0;
+.active{
+    background: black;
 }
-.footer {
-    background: #f5f5f5;
-    color: #303030;
-    min-width: 1200px;
-    height: 200px;
-    letter-spacing: 0;
-    position: relative;
+.index-panel-top{
+    margin-bottom: 100px;
 }
-.anchorDiv {
-    position: fixed;
-    width: 67px;
-    height: 201px;
-    bottom: 47px;
-    right: 60px;
-    z-index: 999;
-    background: url(/_nuxt/img/7cc59c9.png) no-repeat;
-    background-size: 67px 201px;
-    background: none\9;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="~assets/website/img/pill.png",sizingMethod="scale");
+.index-panelbody{
+    margin-top: 70px;
+    
 }
 </style>

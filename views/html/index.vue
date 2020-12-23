@@ -1,20 +1,18 @@
 <template>
   <div class="CCC">
-    <abc/>
-    
+  <dada4/>
   </div>
 </template>
 <script>
-  import abc  from '../html/abc'
 //引用
 //模板 脚本 样式
+import   dada4
+ from '../html/dada4'
 export default {
   components: {
-    abc,
-    
+    dada4,
+  
   }
-  
-  
 };
 </script>
 <style>

@@ -4,6 +4,10 @@
        <!-- <hui></hui>/ -->
        <!-- <trannsfrom></trannsfrom> -->
        <yy></yy>
+       <!-- <qin></qin>
+      <xiaohuihui/> -->
+      <!-- <fff></fff> -->
+    
     </div>
 </template>
 <script>
@@ -11,12 +15,17 @@
     // import hui from '../css/hui'
     // import trannsfrom  from '../css/trannsfrom'
     import yy from '../css/yy'
+    // import xiaohuihui from '../css/xiaohuihui'
+    
  export default{
      components:{
     //  lic,
     //  hui,
     //  trannsfrom,
     yy,
+    // xiaohuihui,
+    
+    
      }
  }
 </script>
